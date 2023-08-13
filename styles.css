@@ -1,1 +1,164 @@
-/* your code here */
+*{
+    padding: 0px;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+body{
+   
+    height: 100vh;
+}
+
+.whole-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #10e31e;
+    padding-bottom: 20px;
+    height: 100vh;
+
+   
+}
+
+.product{
+    width: 50%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    padding-right: 25px;
+    height: 80%;
+    overflow: visible;
+    position: absolute;
+   
+
+}
+
+.photo-container{
+    width: 80%;
+    height: 65vh;
+    position: relative;
+    right: 50px;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.right-cont{
+    margin-left: 20px;
+    width: 100%;
+    padding-bottom: 10px ;
+
+  
+}
+
+.apple-color-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.photo-album{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 92px;
+}
+
+.photo-album ul{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+	margin-left: 0px;
+}
+
+.photo-main{
+    background-color: #a3f763;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 80px;
+}
+
+.left-each-view{
+    border: 1px solid #D3D3D3;
+    padding: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.view-img{
+    width: 38px;
+    height: 38px;
+}
+
+.price{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.price span{
+    font-size: 40px;
+    color: red;
+    margin-left: 15px;
+}
+
+div h3{
+    font-size: 17px;
+    color: #B8B8B8;
+    font-weight: bold;
+}
+
+.each-color-apple{
+    border: 1px solid #D3D3D3;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product__photo{
+    width: 38px;
+    height: 38px;
+}
+
+div ul{
+    margin-left: 30px;
+}
+
+.button{
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
